@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <title>Mospending Landing Page</title>
 </head>
 <body>
-    <section class="bg-[#3734a9]">
+    <section class="bg-[#3734a9] relative">
         <div class="container">
             <!-- Navbar Section -->
             <nav>
@@ -27,15 +28,166 @@
             </nav>
 
             <div class="hero">
-                <h1>Our fintech app makes managing your transactions a breeze.</h1>
-                <p>Our fintech app simplifies transaction management, making it effortless to track your spending, monitor balances, and stay on top of your finances.</p>
+                <h1 class="font-extrabold text-[5rem] text-center" >Our fintech app makes managing your transactions a breeze.</h1>
+                <p class="font-medium text-[1rem] color-[#f4f4f4]">Our fintech app simplifies transaction management, making it effortless to track your spending, monitor balances, and stay on top of your finances.</p>
 
-                <form>
-                    <input type="email" placeholder="Enter your email" class="rounded-[31px] bg-[#fff] opacity-10 text-[#fff]" >
-                    <input type="submit" value="Create Account" class="cursor-pointer bg-[#ffa051] text-[#fff] rounded-[31px]">
+                <form class="relative">
+                    <input type="email" placeholder="Enter your email" class="rounded-[31px] bg-[#fff] opacity-10 text-[#fff] w-[100%]" >
+                    <input type="submit" value="Create Account" class="cursor-pointer bg-[#ffa051] text-[#fff] rounded-[31px] absolute -left-[10%]">
                 </form>
             </div>
         </div>
     </section>
+    <!-- Dashboard image -->
+    <img src="./images/dashboard.png" alt="dashboard" class="absolute">
+
+    <section>
+        <div class="container">
+            <h2>Our Features</h2>
+            <p class="font-medium text-[1rem] text-[#161616]"> With features like customizable dashboards, real-time alerts, and secure data encryption, you can effortlessly manage your transactions and take control of your financial life.</p>
+            
+            <div>
+                <div class="bg-[#F5EBFA]">
+                    <div>
+                        <h3 class="text-[2rem] font-bold">Real-time Alerts</h3>
+                        <p class="text-[0.8981rem] font-medium">Stay on top of your finances with our real-time alert feature! Get instant notifications about account activity, upcoming bills, and suspicious transactions so you can take action right away.</p>
+                    </div>
+                    <div>
+                        <img src="./images/real-alert.png" alt="">
+                    </div>
+                </div>
+                <div class="bg-[#F5EBFA]">
+                    <div>
+                        <h3 class="text-[2rem] font-bold">Customizable Dashboard</h3>
+                        <p class="text-[0.8981rem] font-medium">asily track spending, monitor balances, and view transaction history all in one place. Take control of your finances and see the information that matters most to you.</p>
+                    </div>
+                    <div>
+                        <img src="./images/cutomizable.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div>
+
+                <div>
+                    <img src="./images/instant.png" alt="">
+                </div>
+                <div>
+                    <h3 class="text-[#161616] font-extrabold text-[3.375rem]">Instant visa card</h3>
+                    <p class="font-medium text-[1.125rem] text-[#64607d]">Introducing our new instant Visa card feature! With just a few taps in our app, you can instantly create a virtual Visa card and start making purchases online or in-store. Say goodbye to waiting for your physical card to arrive in the mail and hello to instant spending power. Try it today and experience the convenience of our fintech app.</p>
+    
+                    <div>
+                        <div>
+                            <img src="./images/Group 155.png" alt="">
+                            <p class="text-[1.1875rem] font-medium text-[#64607d]">Instant access to funds</p>
+                        </div>
+                        <div>
+                            <img src="./images/Group 155.png" alt="">
+                            <p class="text-[1.1875rem] font-medium text-[#64607d]">Convenience</p>
+                        </div>
+                        <div>
+                            <img src="./images/Group 155.png" alt="">
+                            <p class="text-[1.1875rem] font-medium text-[#64607d]">Flexibility</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3 class="font-extrabold text-[3.375rem] text-[#161616]">Easy tracking</h3>
+                        <p class="text-[#64607d] text-[1.125rem] font-medium">Easily track your payments with our payment tracking feature. Monitor your bills and payments in one place, and get alerts when bills are due, so you never miss a payment again. With our app, you can simplify your finances and stay organized. </p>
+                    </div>
+
+                    <div>
+                        <img src="./images/tracking.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="text-[#131313] font-extrabold text-[3.375rem]">We have more offers for you.</h2>
+            <p class="text-[1rem] font-medium text-[#161616]"> With features like customizable dashboards, real-time alerts, and secure data encryption, you can effortlessly manage your transactions and take control of your financial life.</p>
+
+            <div>
+                <div class="text-[#ffa051]">
+                    <h3 class="font-bold text-[2.5775rem] text-[#191c1f]">Send and receive without borders</h3>
+                    <a href="#" class="text-[#3734a9]">Explore Payments </a>
+                    <img src="./images/send + receive.png" alt="">
+                </div>
+                <div class="text-[#3734a9]">
+                    <h3 class="font-bold text-[2.5775rem] text-[#fff]">Invoices that work smarter</h3>
+                    <a href="#" class="text-[#ffa051]">Learn more about Invoices </a>
+                    <img src="./images/invoices.png" alt="">
+                </div>
+            </div>
+            <div class="bg-[#00aa8c]">
+                    <h3 class="text-[#f4f4f4] font-bold text-[2.5rem]">Smart company debit cards help you and your team go further</h3>
+                    <p class="text-[#ffa051] text-[1.5962rem] font-medium">Learn more about Cards</p>
+                    <img src="./images/smart company.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container bg-[#3b38b2]">
+            <h1 class="text-[4.375rem] font-bold text-[#fff]">We offer personalized savings suggestions</h1>
+            <a href="#" class="bg-[#ffa051] text-[#fff] font-medium text-[0.875rem]">Create Account</a>
+        </div>
+    </section>
+
+    <footer class="bg-[#090909]">
+        <div>
+            <img src="./images/logo.png" alt="">
+            <p class="text-[#fff] text-[1rem]">Discover the power of our fintech app!</p>
+            <div>
+                <a href="#">
+                    <img src="./images/fb.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/linkedin.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/twitter.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/yt.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4 class="text-[#fff] text-[1.125rem] font-medium">Product</h4>
+                <div>
+                    <a href="#" class="text-[#fff] text-[1rem]">How It Works</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">Services</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">Pricing</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-[#fff] text-[1.125rem] font-medium">Company</h4>
+                <div>
+                    <a href="#" class="text-[#fff] text-[1rem]">About</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">FAQs</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">Contact</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">Blog</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-[#fff] text-[1.125rem] font-medium">Utility</h4>
+                <div>
+                    <a href="#" class="text-[#fff] text-[1rem]">Privacy Policy</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">Terms of Use</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">404 Page</a>
+                    <a href="#" class="text-[#fff] text-[1rem]">Protected Page</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
