@@ -4,4 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* font-family: 'Manrope', sans-serif; */
+body{
+    font-family: 'Manrope', sans-serif;
+}
