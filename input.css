@@ -12,13 +12,13 @@ img{
     max-width: 100%;
 }
 
-section {
+/* .head {
     background-image: url('./images/bg-left.png');
-    /* background-repeat: no-repeat;
-    background-size: 700px; */
-    /* background-position: top left;
-    z-index: 1; */
-}
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: top center;
+    z-index: 100;
+} */
 
 /* hamburger menu */
 
