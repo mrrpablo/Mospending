@@ -9,105 +9,107 @@
     <title>Mospending Landing Page</title>
   </head>
   <body>
-        <section class="bg-[#3734a9] relative h-[120vh] md:mx-16 mx-8">
-          <div class="container head relative">
-            <img src="./images/bg-left.png" alt="" class="absolute md:top-[120%]">
-            <img src="./images/bg-right.png" alt="" class="absolute md:-right-[9%] md:top-[20%]">
+        <section class="bg-[#3734a9] relative h-[120vh] ">
+          <div>
+            <img src="./images/bg-left.png" alt="" class="absolute md:top-[80%]">
+            <img src="./images/bg-right.png" alt="" class="absolute md:-right-0 md:top-[20%]">
             <img src="./images/Oval Base.png" alt="" class="absolute">
             <!--  Navbar -->
-            <nav class="relative container p-6 mx-[5px]">
-              <!-- flex container -->
-              <div class="flex items-center justify-between">
-                <!-- logo -->
-                <div class="pt-2">
-                  <img src="./images/logo.png" alt="" />
+            <div class="w-[90%] mx-auto">
+                <nav class=" p-6 mx-auto ">
+                  <!-- flex container -->
+                  <div class="flex items-center justify-between">
+                    <!-- logo -->
+                    <div class="pt-2">
+                      <img src="./images/logo.png" alt="" />
+                    </div>
+                    <!-- menu items -->
+                    <div class="hidden md:flex space-x-6 items-center">
+                      <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
+                        >Home</a
+                      >
+                      <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
+                        >Product</a
+                      >
+                      <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
+                        >Company</a
+                      >
+                      <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
+                        >Utility</a
+                      >
+                      <a
+                        href="#"
+                        class="hidden md:block p-3 px-6 pt-2 text-white bg-[#3777f9] rounded-[2rem] baseline text-[0.875rem] font-medium"
+                        >Login</a
+                      >
+                    </div>
+                    <!-- button -->
+        
+                    <!-- hamburger icon -->
+                    <button
+                      id="menu-btn"
+                      class="block hamburger md:hidden focus:outline-none"
+                    >
+                      <span class="hamburger-top"></span>
+                      <span class="hamburger-middle"></span>
+                      <span class="hamburger-bottom"></span>
+                    </button>
+                  </div>
+        
+                  <!-- mobile menu -->
+                  <div class="md:hidden">
+                    <div
+                      id="menu"
+                      class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white bg-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+                    >
+                      <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
+                        >Home</a
+                      >
+                      <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
+                        >Product</a
+                      >
+                      <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
+                        >Company</a
+                      >
+                      <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
+                        >Utility</a
+                      >
+                      <a
+                        href="#"
+                        class="hidden md:block p-3 px-6 pt-2 text-white bg-[#3777f9] rounded-[2rem] baseline text-[0.875rem] font-medium"
+                        >Login</a
+                      >
+                    </div>
+                  </div>
+                </nav>
+        
+                <div class="hero md:p-6 md:mx-auto">
+                  <h1
+                    class="font-extrabold text-[3rem] md:text-[5rem] md:text-center text-[#fff] md:leading-[5.625rem] md:tracking-[0.3125rem] p-[25px] md:p-[30px]"
+                  >
+                    Our fintech app makes managing your transactions a breeze.
+                  </h1>
+                  <p
+                    class="font-medium text-[1rem] text-[#f4f4f4] md:text-center m-[1.25rem] leading-[30px]"
+                  >
+                    Our fintech app simplifies transaction management, making it
+                    effortless to track your spending, monitor <br />
+                    balances, and stay on top of your finances.
+                  </p>
+        
+                  <form class="relative flex justify-center">
+                    <input
+                      type="email"
+                      placeholder="Enter your email"
+                      class="rounded-[31px] bg-[#161616] opacity-10 md:block p-3 px-6 pt-2 placeholder-[#dfdfdf] w-[30%]"
+                    />
+                    <input
+                      type="submit"
+                      value="Create Account"
+                      class="cursor-pointer bg-[#ffa051] md:block p-3 px-6 pt-2 text-white rounded-[2rem] baseline text-[0.875rem] font-medium absolute right-[30%]"
+                    />
+                  </form>
                 </div>
-                <!-- menu items -->
-                <div class="hidden md:flex space-x-6 items-center">
-                  <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
-                    >Home</a
-                  >
-                  <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
-                    >Product</a
-                  >
-                  <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
-                    >Company</a
-                  >
-                  <a href="#" class="text-[0.875rem] text-[#f4f4f4] font-medium"
-                    >Utility</a
-                  >
-                  <a
-                    href="#"
-                    class="hidden md:block p-3 px-6 pt-2 text-white bg-[#3777f9] rounded-[2rem] baseline text-[0.875rem] font-medium"
-                    >Login</a
-                  >
-                </div>
-                <!-- button -->
-    
-                <!-- hamburger icon -->
-                <button
-                  id="menu-btn"
-                  class="block hamburger md:hidden focus:outline-none"
-                >
-                  <span class="hamburger-top"></span>
-                  <span class="hamburger-middle"></span>
-                  <span class="hamburger-bottom"></span>
-                </button>
-              </div>
-    
-              <!-- mobile menu -->
-              <div class="md:hidden">
-                <div
-                  id="menu"
-                  class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white bg-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
-                >
-                  <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
-                    >Home</a
-                  >
-                  <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
-                    >Product</a
-                  >
-                  <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
-                    >Company</a
-                  >
-                  <a href="#" class="text-[0.875rem] text-[#161616] font-medium"
-                    >Utility</a
-                  >
-                  <a
-                    href="#"
-                    class="hidden md:block p-3 px-6 pt-2 text-white bg-[#3777f9] rounded-[2rem] baseline text-[0.875rem] font-medium"
-                    >Login</a
-                  >
-                </div>
-              </div>
-            </nav>
-    
-            <div class="hero md:p-6 md:mx-auto">
-              <h1
-                class="font-extrabold text-[3rem] md:text-[5rem] md:text-center text-[#fff] md:leading-[5.625rem] md:tracking-[0.3125rem] p-[25px] md:p-[30px]"
-              >
-                Our fintech app makes managing your transactions a breeze.
-              </h1>
-              <p
-                class="font-medium text-[1rem] text-[#f4f4f4] md:text-center m-[1.25rem] leading-[30px]"
-              >
-                Our fintech app simplifies transaction management, making it
-                effortless to track your spending, monitor <br />
-                balances, and stay on top of your finances.
-              </p>
-    
-              <form class="relative flex justify-center">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  class="rounded-[31px] bg-[#161616] opacity-10 md:block p-3 px-6 pt-2 placeholder-[#dfdfdf] w-[30%]"
-                />
-                <input
-                  type="submit"
-                  value="Create Account"
-                  class="cursor-pointer bg-[#ffa051] md:block p-3 px-6 pt-2 text-white rounded-[2rem] baseline text-[0.875rem] font-medium absolute right-[30%]"
-                />
-              </form>
             </div>
           </div>
         </section>
