@@ -1702,6 +1702,14 @@ img{
     height: 731px;
   }
 
+  .md\:h-\[94vh\]{
+    height: 94vh;
+  }
+
+  .md\:h-\[92vh\]{
+    height: 92vh;
+  }
+
   .md\:w-\[45\%\]{
     width: 45%;
   }
